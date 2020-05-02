@@ -1,39 +1,9 @@
-# springboot boilerplate
+# springboot pG jsonb type
 
-Boilerplate for Springboot 2.x:
+Springboot demo for jsonb generic type creation
 <br/>
-
-Basic SB2 application that returns "Hi, I'm the boiler!" message.
+When having multiple JsonB types in our schema, creating multiple converters can very very costly.
+<br>
+This shows how we can create a generic type to deal with the objects conversion.
 <br>
 <br>
-Deployed in Heroku:
-https://spring-boot-ng.herokuapp.com/getBoiler
-
-Swagger:
-https://spring-boot-ng.herokuapp.com/swagger-ui.html
-<br>
-Note: Heroku can take up to 30seconds to awake in case there are no accesses during 30min
-
-<br><br>
-
-
-<h3> Includes: </h3>
-
-<h5> Check Style </h5>
-
-Includes Checkstyle verification:
-<br/>https://github.com/checkstyle/checkstyle
-<br/><br/>
-
-<h5> Coverage check </h5>
-Creates a coverage report using Jacoco:
-<br/>https://www.jacoco.org/jacoco/
-<br/><br/>
-
-
-<h5> BDD using Cucumber </h5>
-Bdd package ready to run the tests using Cucumber
-<br/><br/>
-
-<h5> API Documentation with Swagger 2 </h5>
-Swagger configuration ready
